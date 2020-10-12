@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Fascinate+Inline|Ubuntu|Nanum+Myeongjo|Do+Hyeon&display=swap');
+
+#greeting {
+  font-size: 40px;
+  font-family: 'Fascinate Inline', cursive;;
+  font-weight: bold;
+  border-radius: 1em;
+  color: white;
+  text-shadow: 0 0 5px #333;
+  text-align: center;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#inputvalue {
+  background-color: rgb(250, 235, 152);
+  margin: 0 auto;
+  padding: 30px;
+  width: 70%;
+  margin-bottom: 15px;
+  border-radius: 2em;
+}
+
+.username {
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#namebox {
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: 'Black Han Sans', sans-serif;  
+  color: rgb(121, 117, 117);
+  width: 20%;
+  height: 30px;
+}
+
+.usermessage {
+  margin: 5px 0 5px 0;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+#messagebox {
+  padding: 5px 0 0 5px;
+  font-size: 20px;
+  font-family: 'Black Han Sans', sans-serif;  
+  color: rgb(121, 117, 117);
+  width: 60%; 
+  height: 50px;
+  resize: none;
+}
+
+#tweetbtn {
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  width: 11%; 
+  height: 40px; 
+  margin-top: 10px;
+  border-radius: 1em;
+  cursor: pointer;
+  background-color: #FFF8DC;
+}
+
+#checknewtweet {
+  padding: 30px;
+  background-color: #FFD700;
+  width: 70%;
+  margin: 0 auto;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+} 
+
+#checkbtn,
+#returnbtn {
+  width: 23%; 
+  height: 40px;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  border-radius: 1em;
+  cursor: pointer;
+  background-color: #FFF8DC;
+} 
+
+#img {
+  width: 15px;
+  height: 15px;
+}
+
+#comments {
+  background-color: #FFD700;
+  padding: 0px 30px 30px 30px;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  list-style: none;
+} 
+
+.comment {
+  border: 4px dashed white;
+  border-radius: 1em;
+  padding: 25px;
+  margin-bottom: 15px;
+} 
+
+.user {
+  cursor: pointer;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 18px;
+}
+
+.message {
+  margin: 5px 0 5px 0;
+  color: black;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 25px;
+} 
+
+.date {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: right;
+}
